@@ -8,7 +8,7 @@ var bot = new Discord.Client();
 var prefix = ("&");
 
 bot.on('ready', () => {
-    client.user.setActivity(`&blague | ${bot.user.username} le rigolo`), { type: 'WATCHING' };
+  bot.user.setActivity(`&blague | ${bot.user.username} le rigolo`, { type: 'WATCHING' });
 console.log("Bot prêt !");
 });
 
